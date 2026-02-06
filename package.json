@@ -5,11 +5,12 @@
   "license": "ISC",
   "author": "Farxad I",
   "type": "commonjs",
-  "main": "index.html",
+  "source": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "sass --style=expanded --watch styles:styles"
   },
   "dependencies": {
     "sass": "^1.97.3"
   }
 }
+ 
