@@ -1,0 +1,15 @@
+{
+  "name": "productlaunch",
+  "version": "1.0.0",
+  "description": "First npm üork",
+  "license": "ISC",
+  "author": "Farxad I",
+  "type": "commonjs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sass": "^1.97.3"
+  }
+}

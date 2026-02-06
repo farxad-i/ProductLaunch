@@ -1,0 +1,19 @@
+body {
+  background-color: #ffe4c4;
+}
+body .container {
+  background-color: #00ffff;
+}
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  max-height: 1000px;
+  justify-content: center;
+  align-items: center;
+}
+.container .main {
+  max-width: 500px;
+  max-height: 500px;
+  background-color: #ffe4c4;
+}/*# sourceMappingURL=style.css.map */
