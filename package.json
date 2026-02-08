@@ -1,16 +1,24 @@
 {
   "name": "productlaunch",
   "version": "1.0.0",
-  "description": "First npm üork",
+  "description": "landing page",
+  "homepage": "https://github.com/farxad-i/ProductLaunch#readme",
+  "bugs": {
+    "url": "https://github.com/farxad-i/ProductLaunch/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farxad-i/ProductLaunch.git"
+  },
   "license": "ISC",
   "author": "Farxad I",
   "type": "commonjs",
   "source": "index.html",
   "scripts": {
-    "start": "sass --style=expanded --watch styles:styles"
+    "sass:watch": "sass --style=expanded --watch styles:dist"
   },
-  "dependencies": {
+  "devDependencies": {
+    "parcel": "^2.16.4",
     "sass": "^1.97.3"
   }
 }
- 
