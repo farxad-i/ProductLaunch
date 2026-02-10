@@ -1,0 +1,14 @@
+npm init- for first initilization files 
+entry point index.html
+
+"source": "index.html" - change in json file main to source 
+
+and add script
+
+ "scripts": {
+    "sass:watch": "sass --style=expanded --watch styles:dist"
+  },
+
+  run in terminal npm i -D sass parcel
+
+  in terminal run --    npm run sass:watch
