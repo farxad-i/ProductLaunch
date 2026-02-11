@@ -7,8 +7,14 @@ and add script
 
  "scripts": {
     "sass:watch": "sass --style=expanded --watch styles:dist"
+    "pacel:watch": "parcel serve --dist-dir public",
+    "parcel:build": "parcel build --dist-dir build --public-url ./  --no-optimize"
   },
+
+
 
   run in terminal npm i -D sass parcel
 
   in terminal run --    npm run sass:watch
+  npm run parcel:watch
+  npm run parcel:build

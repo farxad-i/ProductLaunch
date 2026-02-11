@@ -15,7 +15,28 @@
   "type": "commonjs",
   "source": "index.html",
   "scripts": {
-    "sass:watch": "sass --style=expanded --watch styles:dist"
+    "sass:watch": "sass --style=expanded --watch styles:dist",
+    "pacel:watch": "parcel serve --dist-dir public",
+    "parcel:build": "parcel build --dist-dir build --public-url ./  --no-optimize"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "detect-libc": "^2.1.2",
+    "esbuild": "^0.27.3",
+    "fdir": "^6.5.0",
+    "immutable": "^5.1.4",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "nanoid": "^3.3.11",
+    "node-addon-api": "^7.1.1",
+    "picocolors": "^1.1.1",
+    "picomatch": "^4.0.3",
+    "postcss": "^8.5.6",
+    "readdirp": "^4.1.2",
+    "rollup": "^4.57.1",
+    "source-map-js": "^1.2.1",
+    "tinyglobby": "^0.2.15",
+    "vite": "^7.3.1"
   },
   "devDependencies": {
     "parcel": "^2.16.4",
