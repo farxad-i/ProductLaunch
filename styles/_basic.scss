@@ -1,6 +1,8 @@
 @use "variables" as v;
+@use "fonts";
 
 * {
+  font-family: roboto;
   margin: 0;
   padding: 0;
 }

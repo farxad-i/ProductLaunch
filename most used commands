@@ -1,0 +1,103 @@
+// java script burger menu code
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   document.getElementById("listitem").addEventListener("click", function () {
+//     document.querySelector(".toggler").checked = false;
+//   });
+// });
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   document.getElementById("listitem1").addEventListener("click", function () {
+//     document.querySelector(".toggler").checked = false;
+//   });
+// });
+// document.addEventListener("DOMContentLoaded", function () {
+//   document.getElementById("listitem2").addEventListener("click", function () {
+//     document.querySelector(".toggler").checked = false;
+//   });
+// });
+// document.addEventListener("DOMContentLoaded", function () {
+//   document.getElementById("listitem3").addEventListener("click", function () {
+//     document.querySelector(".toggler").checked = false;
+//   });
+// });
+
+// svg burger past code in HTML
+
+// <label for="burger-meny-id">
+//          <svg class="close-icon">
+//            <use href="Assets/sprite.svg#close-icon"></use>
+//          </svg>
+//        </label>
+
+// burger menu in HTML
+
+// <div class="burger-meny">
+//   <label for="burger-meny-id">
+//     <svg class="open-icon">
+//       <use href="Assets/sprite.svg#open-icon"></use>
+//     </svg>
+//   </label>
+//   <input type="checkbox" name="" id="burger-meny-id" class="toggler" />
+//   <nav class="nav-mobile">
+//     <ul class="nav-list-mobile">
+//       <li>
+//         <a href="#hero" class="nav-listitem-mobile" id="listitem"
+//           >Why Alivio</a
+//         >
+//       </li>
+//       <li>
+//         <a href="#first" class="nav-listitem-mobile" id="listitem1"
+//           >Solutions</a
+//         >
+//       </li>
+//       <li>
+//         <a href="#second" class="nav-listitem-mobile" id="listitem2"
+//           >Community
+//         </a>
+//       </li>
+//       <li>
+//         <a href="#third" class="nav-listitem-mobile" id="listitem3"
+//           >Pricing</a
+//         >
+//       </li>
+//     </ul>
+
+//     <label for="burger-meny-id">
+//       <svg class="close-icon">
+//         <use href="Assets/sprite.svg#close-icon"></use>
+//       </svg>
+//     </label>
+//   </nav>
+// </div>
+
+// picture tag in html
+
+// <picture>
+//                 <source
+//                   srcset="Assets/images/webp/01_2x.webp"
+//                   media="(max-width: 992px)"
+//                 />
+//                 <source
+//                   srcset="Assets/images/webp/01_1x.webp"
+//                   media="(max-width: 576px)"
+//                 />
+//                 <img
+//                   src="Assets/images/webp/01_3x.webp"
+//                   alt="image"
+//                   class="card__img"
+//                 />
+// </picture>
+
+// medias
+
+/* @media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 450px) {
+} */

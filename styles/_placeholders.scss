@@ -12,3 +12,10 @@
     fill: v.$black;
   }
 }
+
+%hower-light {
+  &:hover {
+    color: v.$white;
+    cursor: pointer;
+  }
+}
