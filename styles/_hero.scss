@@ -11,12 +11,31 @@
   padding: 140px 0 0 0;
   background: url("../assets/images/1\ \(3\).webp") center/contain no-repeat;
 
+  @media (max-width: v.$media_l) {
+    background: url("../assets/images/1\ \(3\).webp") 0 180px / contain
+      no-repeat;
+  }
+
   &__content {
     position: relative;
     margin: 0 auto;
     max-width: 950px;
+    width: 100%;
+    @media (max-width: v.$media_l) {
+      max-width: 900px;
+    }
+    @media (max-width: v.$media_m) {
+      display: block;
+    }
+
     &-title {
+      // max-width: 900px;
+
       @include m.font(120px, 700, 1, v.$black);
+
+      @media (max-width: v.$media_l) {
+        @include m.font(94px, 700, 1, v.$black);
+      }
     }
 
     &-btn {
@@ -42,6 +61,12 @@
       &:focus-visible {
         outline: 2px solid v.$white;
       }
+      @media (max-width: v.$media_l) {
+        @include m.font(22px, 500, 4.29, v.$white);
+        @include m.position(absolute, 1, -1, bottom, left, 15px, 440px);
+        width: 300px;
+        height: 60px;
+      }
     }
   }
 
@@ -53,11 +78,20 @@
     background-color: color.adjust(v.$white, $alpha: -0.85);
     border-radius: 20px;
     @include m.d-flex(end, center, nowrap, row, 10px);
+
+    @media (max-width: v.$media_l) {
+      width: 650px;
+    }
     &-img {
       width: 128px;
       height: 198px;
       object-fit: cover;
       @include m.position(absolute, 1, -1, bottom, left, -55px, -25px);
+
+      @media (max-width: v.$media_l) {
+        width: 118px;
+        height: 188px;
+      }
     }
 
     &-content {
@@ -86,6 +120,9 @@
 
   &__scroll {
     @include m.position(absolute, 1, -1, bottom, left, 300px, 10px);
+    @media (max-width: v.$media_l) {
+      @include m.position(absolute, 1, -1, bottom, left, 380px, 5px);
+    }
     &-down {
       position: relative;
       @include m.font(16px, 500, 1, v.$white);
