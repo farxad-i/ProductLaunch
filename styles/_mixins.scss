@@ -3,8 +3,8 @@
   $align-items: center,
   $flexwrap: nowrap,
   $direction: row,
-  $row-gap: unset,
-  $columngap: unset
+  $row-gap: 0,
+  $columngap: 0
 ) {
   display: flex;
   justify-content: $justify;

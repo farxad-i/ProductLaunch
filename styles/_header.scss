@@ -107,5 +107,8 @@
 
       @extend %hower-sbg-black;
     }
+    @media (max-width: v.$media_s) {
+      display: none;
+    }
   }
 }
