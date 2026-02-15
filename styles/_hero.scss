@@ -188,15 +188,15 @@
   }
 
   &__scroll {
-    @include m.position(absolute, 1, -1, bottom, left, 300px, 10px);
+    @include m.position(absolute, 1, -1, bottom, left, 160px, 10px);
     @media (max-width: v.$media_l) {
-      @include m.position(absolute, 1, -1, bottom, left, 380px, 5px);
+      @include m.position(absolute, 1, -1, bottom, left, 220px, 5px);
     }
     @media (max-width: v.$media_m) {
-      @include m.position(absolute, 1, -1, bottom, left, 320px, 5px);
+      @include m.position(absolute, 1, -1, bottom, left, 180px, 5px);
     }
     @media (max-width: v.$media_s) {
-      @include m.position(absolute, 1, -1, bottom, left, 400px, 5px);
+      @include m.position(absolute, 1, -1, bottom, left, 230px, 5px);
     }
     &-down {
       position: relative;
